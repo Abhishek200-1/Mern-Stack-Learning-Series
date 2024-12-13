@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="basicinfo">
+            <h1>Bill Gates</h1>
+            <p>Contact :<a href="abcd.com">billgates@gmail.com</a></p>
+            <p>LinkedIn :<a href="abcd.com">billgates200-1</a></p>
+            <p>GitHub :<a href="abcd.com">github.com/billgates</a></p>
+        </div>
+
+        <table>
+            <tr>
+                <td><img src="bc9fd4bd-de9b-4555-976c-8360576c6708.jpg" alt="avatarimage" width="150px" height="150px"></td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat dolorem quo pariatur mollitia id debitis quia. Adipisci eius ex accusantium rerum voluptatem at cupiditate, 
+                    <br/>ipsum voluptates iure, fuga temporibus hic vel optio veritatis in enim cum numquam. Esse corrupti dolor nam, explicabo recusandae debitis numquam alias animi non 
+                    <br/>libero odit odio. Ab esse corrupti error! Dignissimos qui cum eligendi beatae? Totam sequi odio impedit soluta <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nihil vel, culpa accusantium fuga quis autem laboriosam, 
+                    omnis quaerat eum natus veritatis! Esse, voluptatum cupiditate.</td>
+            </tr>
+        </table>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quia sunt dolore aperiam, illum maiores fugiat suscipit explicabo alias, unde, consequuntur officiis architecto! Harum, odio.</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, qui? Sint animi ullam dolor ratione dolore itaque quisquam vero est vitae atque.</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem laborum repellat labore consequuntur vel corrupti est ad voluptatibus vitae incidunt quam enim consequatur quae assumenda recusandae, quidem possimus ut nam.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Work Experiance</h2>
+
+            <h3>Software Engineer, Microsoft</h3>
+            <p>July 2022 - October 2023</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem enim quaerat veniam maiores. Qui eveniet optio impedit provident reiciendis?</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem enim quaerat veniam maiores.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur harum placeat sequi a nemo cumque.</li>
+            </ul>
+
+            <h3>Software Engineer, Amazone</h3>
+            <p>October 2023 - March 2024</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem enim quaerat veniam maiores. Qui eveniet optio impedit provident reiciendis?</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quidem enim quaerat veniam maiores.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur harum placeat sequi a nemo cumque.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+
+            <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Archievements</h2>
+
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quas illum perferendis deserunt atque ipsa eligendi, voluptatibus placeat asperiores quaerat, fuga enim, incidunt a repudiandae?</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt necessitatibus, quia repudiandae et sit quasi facilis ad. Consequatur, sint ipsa.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+
+            <ul>
+                <li><h2>Library Management System</h2></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quia sit doloribus neque ad perspiciatis praesentium ullam! Unde ducimus deserunt dolore, dignissimos magnam delectus iure!</p>
+                <p>Hosted Link :<a href="#">example/blog</a></p>
+                <p>GitHub Link :<a href="#">github/exmaplename/2565</a></p>
+            </ul>
+
+            <ul>
+                <li><h2>Blog Website</h2></li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quia sit doloribus neque ad perspiciatis praesentium ullam! Unde ducimus deserunt dolore, dignissimos magnam delectus iure!</p>
+                <p>Hosted Link :<a href="#">example/blog</a></p>
+                <p>GitHub Link :<a href="#">github/exmaplename/2565</a></p>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Frequenty Asked Questions :</h2>
+
+            <details>
+                <summary>Question 1 : What is lorem ipsum?</summary>
+                <p>Lorem ipsum, placeholder or dummy text used in typesetting and graphic design for previewing layouts.</p>
+            </details>
+            <details>
+                <summary>Question 2 : Wow do i get started?</summary>
+                <p>Lorem ipsum, placeholder or dummy text used in typesetting and graphic design for previewing layouts.</p>
+            </details>
+            <details>
+                <summary>Question 3 : Can i custmize the setting?</summary>
+                <p>Lorem ipsum, placeholder or dummy text used in typesetting and graphic design for previewing layouts.</p>
+            </details>
+            <details>
+                <summary>Question 4 : Is there a mobile app available?</summary>
+                <p>Lorem ipsum, placeholder or dummy text used in typesetting and graphic design for previewing layouts.</p>
+            </details>
+            <details>
+                <summary>Question 5 : How can i contact customer support?</summary>
+                <p>Lorem ipsum, placeholder or dummy text used in typesetting and graphic design for previewing layouts.</p>
+            </details>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Abhishek200-1. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

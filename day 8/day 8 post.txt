@@ -1,0 +1,15 @@
+📄 Day 8 of My Web Development Journey: My First Project! 📄
+
+Today, I created my very first HTML Project—a custom Resume Website! 🎉 This was a fantastic way to put all the HTML tags I’ve learned into action, along with some new ones for a polished, structured layout. Here’s what I accomplished:
+
+🔹 HTML Structure Mastery: Used key tags like <header>, <section>, <footer>, and <nav> to build a well-organized resume site. 🏗️
+
+🔹 New Elements & Styling: Applied new tags and added elements like <h1>, <p>, and <a> to make the content accessible and easy to navigate. 🌐
+
+🔹 Practical Application: This hands-on project is a great foundation, setting me up to build more complex sites with confidence and creativity! 🔥
+
+Building this resume project was both challenging and rewarding, and it brought everything together in a tangible, usable form. 🚀 I’m excited to keep pushing forward in this MERN stack journey!
+
+If you’re starting in web development, creating a simple project like this is a great way to apply what you’ve learned. Follow along if you’re interested in building projects step-by-step! 🤝
+
+#WebDevelopment #HTMLProject #ResumeWebsite #MERNStack #LearningJourney #TechSkills #Day8 #CodeNewbie #ProjectBasedLearning
