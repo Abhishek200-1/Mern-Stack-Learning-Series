@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: none;
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.navContainer{
+    width: 100vw;
+    /* background-color: rgb(119, 119, 222); */
+    min-height: 50px;
+    justify-content: center;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    width: 100%;
+    position: relative;
+    overflow-x: none;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.navContent{
+    display: flex;
+    gap: 40px;
+    
+}
+
+#navList{
+    list-style: none;
+    font-size: 2.5rem;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    align-items: center;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+}
+
+#navLogo{
+    font-size: 2.5rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+
+.footerBox{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: azure;
+}
+
+.footerBox p{
+    color: azure;
+    font-size: 2rem ;
+}
+
+.contentBox{
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 1rem;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 10px;
+
+}
+
+.rightBox img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;  
+    transition: all 0.6s linear 0s;
+}
+
+.rightBox:hover{
+    transform: scale(1.1);
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+.leftBox h2{
+    font-size: 2rem;
+}
+
+.ingBox{
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.recipeBox{
+    font-size: 1.2rem;
+    
+}
+
+.rightBox{
+    position: relative;
+    transition: all 0.3s linear 0s;
+}
+
+.rightBox .overLay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(85, 84, 84, 0.567);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+}
+
+.rightBox .overLay:hover{
+    opacity: 1;
+}
+
+.rightBox span{
+    color: white;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            
+        }
+
+        .cardBox{
+            width: 350px;
+            height: 550px;
+            border: 2px solid black;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        img{
+            height: 200px;
+            width: 350px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        h2{
+            font-weight: bold;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        p{
+            margin: 15px;
+        }
+
+        .content{
+            width: 320px;
+            height: 60px;
+            border: 1px solid gray;
+            margin: 13px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            background-color: #8EC5FC;
+        }
+
+        .content img{
+            height: 60px;
+            width: 60px;
+        }
+
+        .content h3{
+            margin-left: 20px;
+            margin-top: 7px;
+        }
+
+        .content a{
+            margin-left: 65px;
+            margin-top: 4px;
+        }
+
+        button{
+            width: 310px;
+            height: 50px;
+            background-color: rgb(38, 38, 77);
+            margin-left: 20px;
+            border-radius: 10px;
+            font-size: 15px;
+            color: azure;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        button:hover{
+            background-color: rgb(64, 133, 64);
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+
+        .details a{
+            color: rgb(38, 38, 77);
+            font-size: 18px;
+            text-decoration: none;
+            justify-content: center;
+            display: flex;
+            padding-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- card 1 -->
+        <div class="cardBox">
+            <img src="sweet.jpg" alt="">
+            <div class="details">
+                <h2>Order Summery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laborum provident molestias, neque veniam reiciendis quos commodi quibusdam alias asperiores molestiae, unde facilis adipisci labore.</p>
+                <div class="content">
+                    <img src="music.webp" alt="">
+                    <h3>Annual plan <br>$99.9/year</h3>
+                    <a href="#">Change</a>
+                </div>
+                <button>Proceed to Payment</button>
+                <a href="#">Cancel Order</a>
+            </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="cardBox">
+            <img src="eastern-sweets.jpg" alt="">
+            <div class="details">
+                <h2>Order Summery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laborum provident molestias, neque veniam reiciendis quos commodi quibusdam alias asperiores molestiae, unde facilis adipisci labore.</p>
+                <div class="content">
+                    <img src="music.webp" alt="">
+                    <h3>Annual plan <br>$99.9/year</h3>
+                    <a href="#">Change</a>
+                </div>
+                <button>Proceed to Payment</button>
+                <a href="#">Cancel Order</a>
+            </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="cardBox">
+            <img src="traditional-turkish-delight-oriental-sweets (1).jpg" alt="">
+            <div class="details">
+                <h2>Order Summery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laborum provident molestias, neque veniam reiciendis quos commodi quibusdam alias asperiores molestiae, unde facilis adipisci labore.</p>
+                <div class="content">
+                    <img src="music.webp" alt="">
+                    <h3>Annual plan <br>$99.9/year</h3>
+                    <a href="#">Change</a>
+                </div>
+                <button>Proceed to Payment</button>
+                <a href="#">Cancel Order</a>
+            </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="cardBox">
+            <img src="sweet.jpg" alt="">
+            <div class="details">
+                <h2>Order Summery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laborum provident molestias, neque veniam reiciendis quos commodi quibusdam alias asperiores molestiae, unde facilis adipisci labore.</p>
+                <div class="content">
+                    <img src="music.webp" alt="">
+                    <h3>Annual plan <br>$99.9/year</h3>
+                    <a href="#">Change</a>
+                </div>
+                <button>Proceed to Payment</button>
+                <a href="#">Cancel Order</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
